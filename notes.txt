@@ -1,0 +1,13 @@
+Install Kitty Terminal
+======================
+
+1. Download binary
+2. Setup X11/Fonts
+   2.1 set DISPLAY
+   2.2 set /etc/fonts/local.conf = 
+        <?xml version="1.0" ?>
+        <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+        <fontconfig>
+	        <dir>/mnt/c/Windows/Fonts</dir>
+        </fontconfig>
+   2.3 set LC_ALL=en_US.UTF-8
